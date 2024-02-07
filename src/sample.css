@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 1342px;
+    height: 100px;
+    background-color: #99BC85;
+    color: black;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  .leftbar {
+    width: 200px;
+    height: 80vh;
+    text-align: center;
+    background-color: #99BC85;
+    opacity: 0.7;
+    color: black;
+  }
+  
+  .rightbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .topbar {
+    width: 200px;
+    height: 40vh;
+    background-color: #D4E7C5;
+    color: black;
+  }
+  
+  .belowbar {
+    color: black;
+    width: 200px;
+    height: 40vh;
+    background-color: #E1F0DA;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BFD8AF;
+    color: black;
+  }
